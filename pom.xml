@@ -8,9 +8,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.segura</groupId>
-    <artifactId>Audit-Service-Producer</artifactId>
+    <artifactId>audit_service_deployment</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Audit-Service-Producer</name>
+    <name>audit-service-deployment</name>
     <description>Audit-Service-Producer</description>
     <properties>
         <java.version>17</java.version>
