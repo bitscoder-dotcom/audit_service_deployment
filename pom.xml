@@ -7,11 +7,11 @@
         <version>3.2.11</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.segura</groupId>
+    <groupId>org.bass</groupId>
     <artifactId>audit_service_deployment</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>test</version>
     <name>audit_service_deployment</name>
-    <description>Audit-Service-Producer</description>
+    <description>Audit-Service-Deployment</description>
     <properties>
         <java.version>17</java.version>
     </properties>
