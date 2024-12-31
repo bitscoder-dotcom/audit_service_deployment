@@ -1,4 +1,4 @@
-package org.segura.auditserviceproducer.config;
+package org.bass.config;
 /*
  * Created by Daniel - 18/11/2024 (18:56)
  */

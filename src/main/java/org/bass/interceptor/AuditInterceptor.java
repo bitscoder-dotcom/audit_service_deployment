@@ -1,12 +1,12 @@
-package org.segura.auditserviceproducer.interceptor;
+package org.bass.interceptor;
 /*
  * Created by Daniel - 18/11/2024 (19:34)
  */
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.segura.auditserviceproducer.model.AuditLog;
-import org.segura.auditserviceproducer.service.AuditKafkaProducer;
+import org.bass.model.AuditLog;
+import org.bass.service.AuditKafkaProducer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.core.context.SecurityContextHolder;

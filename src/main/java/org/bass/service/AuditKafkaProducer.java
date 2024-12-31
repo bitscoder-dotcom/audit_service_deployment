@@ -1,11 +1,11 @@
-package org.segura.auditserviceproducer.service;
+package org.bass.service;
 /*
  * Created by Daniel - 18/11/2024 (19:10)
  */
 
-import org.segura.auditserviceproducer.dto.AuditLogDto;
-import org.segura.auditserviceproducer.mapper.AuditLogMapper;
-import org.segura.auditserviceproducer.model.AuditLog;
+import org.bass.dto.AuditLogDto;
+import org.bass.mapper.AuditLogMapper;
+import org.bass.model.AuditLog;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,29 +1,32 @@
-package org.segura.auditserviceproducer.dto;
+package org.bass.model;
 /*
- * Created by Daniel - 18/11/2024 (19:29)
+ * Created by Daniel - 18/11/2024 (19:31)
  */
+
 
 import java.time.LocalDateTime;
 
-public class AuditLogDto {
-    private String email;
+public class AuditLog {
+
+    private String userEmail;
     private String userId;
-    private String apiEndpoint;
+    private String apiEndpointCalled;
     private String crudOperation;
-    private String response;
+    private String responseStatus;
     private String dataBefore;
     private String dataAfter;
-    private LocalDateTime timestamp;
+    private LocalDateTime actionTimeStamp;
 
-    public AuditLogDto() {
+    public AuditLog() {
     }
 
+
     public String getEmail() {
-        return email;
+        return userEmail;
     }
 
     public void setEmail(String email) {
-        this.email = email;
+        this.userEmail = email;
     }
 
     public String getUserId() {
@@ -35,11 +38,11 @@ public class AuditLogDto {
     }
 
     public String getApiEndpoint() {
-        return apiEndpoint;
+        return apiEndpointCalled;
     }
 
     public void setApiEndpoint(String apiEndpoint) {
-        this.apiEndpoint = apiEndpoint;
+        this.apiEndpointCalled = apiEndpoint;
     }
 
     public String getCrudOperation() {
@@ -51,11 +54,11 @@ public class AuditLogDto {
     }
 
     public String getResponse() {
-        return response;
+        return responseStatus;
     }
 
     public void setResponse(String response) {
-        this.response = response;
+        this.responseStatus = response;
     }
 
     public String getDataBefore() {
@@ -75,10 +78,10 @@ public class AuditLogDto {
     }
 
     public LocalDateTime getTimestamp() {
-        return timestamp;
+        return actionTimeStamp;
     }
 
     public void setTimestamp(LocalDateTime timestamp) {
-        this.timestamp = timestamp;
+        this.actionTimeStamp = timestamp;
     }
 }

@@ -1,10 +1,10 @@
-package org.segura.auditserviceproducer.mapper;
+package org.bass.mapper;
 /*
  * Created by Daniel - 18/11/2024 (20:49)
  */
 
-import org.segura.auditserviceproducer.dto.AuditLogDto;
-import org.segura.auditserviceproducer.model.AuditLog;
+import org.bass.dto.AuditLogDto;
+import org.bass.model.AuditLog;
 import org.springframework.stereotype.Component;
 
 @Component

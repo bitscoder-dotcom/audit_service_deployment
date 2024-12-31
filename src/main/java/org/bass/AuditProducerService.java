@@ -1,4 +1,4 @@
-package org.segura.auditserviceproducer;
+package org.bass;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
